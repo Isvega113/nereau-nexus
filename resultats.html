@@ -1,0 +1,332 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Résultats - Nereau Nexus</title>
+    <meta name="description" content="Découvrez les premiers résultats du projet Nereau Nexus et le suivi environnemental de la Meuse.">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="site-frame">
+
+        <!-- HEADER COMMUN -->
+        <header class="site-header">
+
+            <a href="index.html" class="site-logo"
+               aria-label="Accueil - Nereau Nexus">
+                <img src="images/logo.png" alt="Logo Nereau Nexus">
+            </a>
+
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+
+            <label for="menu-toggle" class="menu-toggle-label"
+                   aria-label="Ouvrir ou fermer le menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <nav class="main-nav" aria-label="Navigation principale">
+                <a href="index.html">Accueil</a>
+                <a href="projet.html">Le projet</a>
+                <a href="actions.html">Nos actions</a>
+                <a href="resultats.html" aria-current="page">Résultats</a>
+                <a href="impliquer.html">S’impliquer</a>
+                <a href="contact.html" class="nav-contact">Contact</a>
+            </nav>
+
+        </header>
+
+
+        <!-- CONTENU PRINCIPAL -->
+        <main class="page-resultats">
+
+            <!-- BANNIÈRE -->
+            <section class="resultats-hero">
+
+                <img
+                    src="images/banniere.jpeg"
+                    alt="Vue panoramique de la Meuse"
+                    class="resultats-hero-image"
+                >
+
+                <div class="resultats-hero-overlay"></div>
+
+                <div class="resultats-hero-content">
+                    <h1>Nos résultats</h1>
+                    <p>
+                        Des premiers impacts positifs<br>
+                        sur la Meuse
+                    </p>
+                </div>
+
+                <!-- Vague blanche -->
+                <svg
+                    class="resultats-wave"
+                    viewBox="0 0 1440 120"
+                    preserveAspectRatio="none"
+                    aria-hidden="true"
+                >
+                    <path
+                        d="M0,15
+                           C130,75 220,115 360,100
+                           C490,90 535,35 660,45
+                           C790,55 850,115 970,110
+                           C1110,105 1230,45 1440,15
+                           L1440,120 L0,120 Z"
+                        fill="#ffffff"
+                    />
+                </svg>
+
+            </section>
+
+
+            <!-- STATISTIQUES -->
+            <section class="resultats-content"
+                     aria-label="Les chiffres clés du projet">
+
+                <div class="resultats-stats">
+
+                    <!-- Statistique 1 -->
+                    <article class="resultat-card">
+
+                        <div class="resultat-picto">
+                            <img src="images/poubelle.png" alt="">
+                        </div>
+
+                        <h2>120 kg</h2>
+                        <p>de déchets récoltés</p>
+
+                        <div class="resultat-indicator"></div>
+
+                    </article>
+
+
+                    <!-- Statistique 2 -->
+                    <article class="resultat-card">
+
+                        <div class="resultat-picto">
+                            <img src="images/poisson.png" alt="">
+                        </div>
+
+                        <h2>3</h2>
+                        <p>espèces favorisées</p>
+
+                        <div class="resultat-indicator"></div>
+
+                    </article>
+
+
+                    <!-- Statistique 3 -->
+                    <article class="resultat-card">
+
+                        <div class="resultat-picto">
+                            <img src="images/feuille.png" alt="">
+                        </div>
+
+                        <h2>+25 %</h2>
+                        <p>de végétation</p>
+
+                        <div class="resultat-indicator"></div>
+
+                    </article>
+
+
+                    <!-- Statistique 4 -->
+                    <article class="resultat-card">
+
+                        <div class="resultat-picto">
+                            <img src="images/eau.png" alt="">
+                        </div>
+
+                        <h2>Qualité de l’eau</h2>
+                        <p>en amélioration</p>
+
+                        <div class="resultat-indicator"></div>
+
+                    </article>
+
+                </div>
+
+
+                <!-- SUIVI EN IMAGES -->
+                <section class="suivi-section" aria-labelledby="suivi-title">
+
+                    <div class="suivi-header">
+
+                        <h2 id="suivi-title">Suivi en images :</h2>
+
+                        <div class="suivi-controls">
+
+                            <button
+                                type="button"
+                                class="suivi-arrow"
+                                aria-label="Image précédente"
+                                title="Image précédente"
+                            >
+                                <img src="images/gauche.png" alt="">
+                            </button>
+
+                            <button
+                                type="button"
+                                class="suivi-arrow"
+                                aria-label="Image suivante"
+                                title="Image suivante"
+                            >
+                                <img src="images/droite.png" alt="">
+                            </button>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="suivi-grid">
+
+                        <figure class="suivi-photo">
+                            <img
+                                src="images/fish.jpeg"
+                                alt="Poisson observé dans son milieu aquatique"
+                                loading="lazy"
+                            >
+                        </figure>
+
+                        <figure class="suivi-photo">
+                            <img
+                                src="images/sale.jpeg"
+                                alt="Déchets présents dans l'eau"
+                                loading="lazy"
+                            >
+                        </figure>
+
+                        <figure class="suivi-photo">
+                            <img
+                                src="images/fleur.jpeg"
+                                alt="Fleurs aquatiques et végétation"
+                                loading="lazy"
+                            >
+                        </figure>
+
+                        <figure class="suivi-photo">
+                            <img
+                                src="images/meuse.jpeg"
+                                alt="Vue de la Meuse en soirée"
+                                loading="lazy"
+                            >
+                        </figure>
+
+                    </div>
+
+                </section>
+
+            </section>
+
+        </main>
+
+
+        <!-- FOOTER COMMUN -->
+        <footer class="site-footer">
+
+            <div class="footer-brand">
+
+                <a href="index.html" class="footer-logo">
+                    <img src="images/logo.png" alt="Logo Nereau Nexus">
+                </a>
+
+                <div class="footer-socials">
+                    <a href="#" aria-label="Instagram">
+                        <img src="images/instagram_gris.png" alt="">
+                    </a>
+
+                    <a href="#" aria-label="Facebook">
+                        <img src="images/facebook_gris.png" alt="">
+                    </a>
+
+                    <a href="#" aria-label="YouTube">
+                        <img src="images/youtube_gris.png" alt="">
+                    </a>
+                </div>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h2>Navigation</h2>
+
+                <nav class="footer-nav" aria-label="Navigation de pied de page">
+                    <a href="projet.html">Le projet</a>
+                    <a href="actions.html">Nos actions</a>
+                    <a href="resultats.html">Résultats</a>
+                    <a href="impliquer.html">S’impliquer</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+
+            </div>
+
+
+            <div class="footer-column footer-contact">
+
+                <h2>Contact</h2>
+
+                <div class="footer-contact-item">
+                    <img src="images/localisation_gris.png"
+                         alt="" class="footer-contact-icon">
+                    <p>Bord de Meuse<br>Namur, Belgique</p>
+                </div>
+
+                <div class="footer-contact-item">
+                    <img src="images/email_gris.png"
+                         alt="" class="footer-contact-icon">
+                    <a href="mailto:nereauenexus@gmail.com">
+                        nereauenexus@gmail.com
+                    </a>
+                </div>
+
+                <div class="footer-contact-item">
+                    <img src="images/tel_gris.png"
+                         alt="" class="footer-contact-icon">
+                    <a href="tel:+3281000000">+32 81 00 00 00</a>
+                </div>
+
+            </div>
+
+
+            <div class="footer-column footer-newsletter">
+
+                <h2>Rester informé</h2>
+
+                <p>
+                    Nous proposons du contenu quotidien
+                    pour suivre notre projet.
+                </p>
+
+                <form class="newsletter-form">
+                    <label class="visually-hidden" for="newsletter-email">
+                        Votre adresse e-mail
+                    </label>
+
+                    <input
+                        type="email"
+                        id="newsletter-email"
+                        placeholder="e-mail"
+                    >
+
+                    <button type="button">S'abonner</button>
+                </form>
+
+            </div>
+
+        </footer>
+
+    </div>
+
+</body>
+</html>

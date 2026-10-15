@@ -1,0 +1,230 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Accueil - Nereau Nexus</title>
+    <meta name="description" content="Découvrez Nereau Nexus, un projet pour réduire les déchets et préserver la biodiversité de nos rivières.">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="site-frame">
+
+        <!-- HEADER -->
+        <header class="site-header">
+
+            <a href="index.html" class="site-logo"
+               aria-label="Accueil - Nereau Nexus">
+                <img src="images/logo.png" alt="Logo Nereau Nexus">
+            </a>
+
+            <!-- Menu mobile -->
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+
+            <label for="menu-toggle" class="menu-toggle-label"
+                   aria-label="Ouvrir ou fermer le menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <!-- Navigation -->
+            <nav class="main-nav" aria-label="Navigation principale">
+                <a href="index.html" aria-current="page">Accueil</a>
+                <a href="projet.html">Le projet</a>
+                <a href="actions.html">Nos actions</a>
+                <a href="resultats.html">Résultats</a>
+                <a href="impliquer.html">S’impliquer</a>
+                <a href="contact.html" class="nav-contact">Contact</a>
+            </nav>
+
+        </header>
+
+
+        <!-- CONTENU PRINCIPAL -->
+        <main>
+
+            <!-- BANNIÈRE D'ACCUEIL -->
+            <section class="hero">
+
+                <img
+                    src="images/barrage.jpeg"
+                    alt="La Meuse et son barrage entourés de végétation"
+                    class="hero-image"
+                >
+
+                <div class="hero-content">
+
+                    <h1>La nature<br>respire</h1>
+
+                    <p>
+                        Moins de déchets, plus de biodiversité,
+                        ensemble pour nos rivières.
+                    </p>
+
+                    <a href="projet.html" class="hero-button">
+                        Découvrir le projet
+                    </a>
+
+                </div>
+
+            </section>
+
+
+            <!-- VIDÉO PROMOTIONNELLE -->
+            <section class="video-promo">
+
+                <div class="video-promo-content">
+
+                    <h2>Découvrez notre projet en vidéo</h2>
+
+                    <p>
+                        Ensemble, agissons pour une Meuse plus propre
+                        et une biodiversité préservée.
+                    </p>
+
+                    <div class="video-container">
+
+                        <video
+                            controls
+                            playsinline
+                            preload="metadata"
+                        >
+                            <source
+                                src="videos/meuse.mp4"
+                                type="video/mp4"
+                            >
+
+                            Votre navigateur ne peut pas lire cette vidéo.
+                        </video>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+        </main>
+
+
+        <!-- FOOTER -->
+        <footer class="site-footer">
+
+            <!-- Colonne 1 : Logo et réseaux sociaux -->
+            <div class="footer-brand">
+
+                <a href="index.html" class="footer-logo">
+                    <img src="images/logo.png" alt="Logo Nereau Nexus">
+                </a>
+
+                <div class="footer-socials">
+
+                    <a href="#" aria-label="Instagram">
+                        <img src="images/instagram.png" alt="">
+                    </a>
+
+                    <a href="#" aria-label="Facebook">
+                        <img src="images/facebook.png" alt="">
+                    </a>
+
+                    <a href="#" aria-label="YouTube">
+                        <img src="images/youtube.png" alt="">
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- Colonne 2 : Navigation -->
+            <div class="footer-column">
+
+                <h2>Navigation</h2>
+
+                <nav class="footer-nav" aria-label="Navigation de pied de page">
+                    <a href="projet.html">Le projet</a>
+                    <a href="actions.html">Nos actions</a>
+                    <a href="resultats.html">Résultats</a>
+                    <a href="impliquer.html">S’impliquer</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+
+            </div>
+
+
+            <!-- Colonne 3 : Contact -->
+            <div class="footer-column footer-contact">
+
+                <h2>Contact</h2>
+
+                <div class="footer-contact-item">
+                    <img
+                        src="images/localisation.png"
+                        alt=""
+                        class="footer-contact-icon"
+                    >
+                    <p>Bord de Meuse<br>Namur, Belgique</p>
+                </div>
+
+                <div class="footer-contact-item">
+                    <img
+                        src="images/email.png"
+                        alt=""
+                        class="footer-contact-icon"
+                    >
+                    <a href="mailto:nereauenexus@gmail.com">
+                        nereauenexus@gmail.com
+                    </a>
+                </div>
+
+                <div class="footer-contact-item">
+                    <img
+                        src="images/tel.png"
+                        alt=""
+                        class="footer-contact-icon"
+                    >
+                    <a href="tel:+3281000000">+32 81 00 00 00</a>
+                </div>
+
+            </div>
+
+
+            <!-- Colonne 4 : Newsletter -->
+            <div class="footer-column footer-newsletter">
+
+                <h2>Rester informé</h2>
+
+                <p>
+                    Nous proposons du contenu quotidien
+                    pour suivre notre projet.
+                </p>
+
+                <div class="newsletter-form">
+
+                    <label class="visually-hidden" for="newsletter-email">
+                        Votre adresse e-mail
+                    </label>
+
+                    <input
+                        type="email"
+                        id="newsletter-email"
+                        placeholder="e-mail"
+                    >
+
+                    <button type="button">S'abonner</button>
+
+                </div>
+
+            </div>
+
+        </footer>
+
+    </div>
+
+</body>
+</html>

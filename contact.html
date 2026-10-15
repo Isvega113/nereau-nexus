@@ -1,0 +1,345 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact - Nereau Nexus</title>
+    <meta name="description" content="Contactez Nereau Nexus pour poser vos questions, proposer une idée ou participer à la protection de la Meuse.">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div class="site-frame">
+
+    <!-- HEADER COMMUN -->
+    <header class="site-header">
+
+        <a href="index.html" class="site-logo"
+           aria-label="Accueil - Nereau Nexus">
+            <img src="images/logo.png" alt="Logo Nereau Nexus">
+        </a>
+
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+
+        <label for="menu-toggle" class="menu-toggle-label"
+               aria-label="Ouvrir ou fermer le menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+
+        <nav class="main-nav" aria-label="Navigation principale">
+            <a href="index.html">Accueil</a>
+            <a href="projet.html">Le projet</a>
+            <a href="actions.html">Nos actions</a>
+            <a href="resultats.html">Résultats</a>
+            <a href="impliquer.html">S’impliquer</a>
+            <a href="contact.html" aria-current="page" class="nav-contact">
+                Contact
+            </a>
+        </nav>
+
+    </header>
+
+
+    <!-- PAGE CONTACT -->
+    <main class="page-contact">
+
+        <!-- BANNIÈRE -->
+        <section class="contact-hero">
+
+            <img
+                src="images/banniere.jpeg"
+                alt="Vue panoramique de la Meuse"
+                class="contact-hero-image"
+            >
+
+            <div class="contact-hero-overlay"></div>
+
+            <div class="contact-hero-content">
+                <h1>Contact</h1>
+                <p>
+                    Une question ? Une idée ?<br>
+                    Contactez-nous !
+                </p>
+            </div>
+
+            <!-- Vague blanche -->
+            <svg
+                class="contact-wave"
+                viewBox="0 0 1440 120"
+                preserveAspectRatio="none"
+                aria-hidden="true"
+            >
+                <path
+                    d="M0,15
+                       C130,75 220,115 360,100
+                       C490,90 535,35 660,45
+                       C790,55 850,115 970,110
+                       C1110,105 1230,45 1440,15
+                       L1440,120 L0,120 Z"
+                    fill="#ffffff"
+                />
+            </svg>
+
+        </section>
+
+
+        <!-- FORMULAIRE, COORDONNÉES ET LOGO -->
+        <section class="contact-section"
+                 aria-label="Informations de contact">
+
+            <!-- FORMULAIRE -->
+            <form class="contact-form">
+
+                <label class="visually-hidden" for="contact-nom">
+                    Votre nom
+                </label>
+                <input
+                    type="text"
+                    id="contact-nom"
+                    name="nom"
+                    placeholder="nom"
+                    autocomplete="name"
+                >
+
+                <label class="visually-hidden" for="contact-email">
+                    Votre adresse e-mail
+                </label>
+                <input
+                    type="email"
+                    id="contact-email"
+                    name="email"
+                    placeholder="e-mail"
+                    autocomplete="email"
+                >
+
+                <label class="visually-hidden" for="contact-sujet">
+                    Votre sujet
+                </label>
+                <input
+                    type="text"
+                    id="contact-sujet"
+                    name="sujet"
+                    placeholder="votre sujet"
+                >
+
+                <label class="visually-hidden" for="contact-message">
+                    Votre message
+                </label>
+                <textarea
+                    id="contact-message"
+                    name="message"
+                    placeholder="message..."
+                    rows="4"
+                ></textarea>
+
+                <button type="button" class="contact-submit">
+                    envoyer
+                </button>
+
+            </form>
+
+
+            <!-- COORDONNÉES -->
+            <div class="contact-details">
+
+                <!-- LOCALISATION -->
+                <div class="contact-info-item">
+                    <img
+                        src="images/localisation.png"
+                        alt=""
+                        class="contact-info-icon"
+                    >
+
+                    <div class="contact-info-text">
+                        <h2>Localisation</h2>
+                        <p>
+                            Bord de Meuse<br>
+                            Namur, Belgique
+                        </p>
+                    </div>
+                </div>
+
+
+                <!-- EMAIL -->
+                <div class="contact-info-item">
+                    <img
+                        src="images/email.png"
+                        alt=""
+                        class="contact-info-icon"
+                    >
+
+                    <div class="contact-info-text">
+                        <h2>Email</h2>
+                        <a href="mailto:nereauenexus@gmail.com">
+                            nereauenexus@gmail.com
+                        </a>
+                    </div>
+                </div>
+
+
+                <!-- TÉLÉPHONE -->
+                <div class="contact-info-item">
+                    <img
+                        src="images/tel.png"
+                        alt=""
+                        class="contact-info-icon"
+                    >
+
+                    <div class="contact-info-text">
+                        <h2>Téléphone</h2>
+                        <a href="tel:+3281000000">
+                            +32 81 00 00 00
+                        </a>
+                    </div>
+                </div>
+
+
+                <!-- RÉSEAUX SOCIAUX -->
+                <div class="contact-follow">
+
+                    <h2>Suivez-nous</h2>
+
+                    <div class="contact-socials">
+
+                        <a href="#" aria-label="Instagram">
+                            <img src="images/instagram.png" alt="">
+                        </a>
+
+                        <a href="#" aria-label="Facebook">
+                            <img src="images/facebook.png" alt="">
+                        </a>
+
+                        <a href="#" aria-label="YouTube">
+                            <img src="images/youtube.png" alt="">
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- GRAND LOGO À DROITE -->
+            <div class="contact-brand">
+                <a href="index.html" aria-label="Retour à l'accueil">
+                    <img src="images/logo.png" alt="Logo Nereau Nexus">
+                </a>
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER COMMUN -->
+    <footer class="site-footer">
+
+        <!-- Logo et réseaux sociaux -->
+        <div class="footer-brand">
+
+            <a href="index.html" class="footer-logo">
+                <img src="images/logo.png" alt="Logo Nereau Nexus">
+            </a>
+
+            <div class="footer-socials">
+                <a href="#" aria-label="Instagram">
+                    <img src="images/instagram.png" alt="">
+                </a>
+
+                <a href="#" aria-label="Facebook">
+                    <img src="images/facebook.png" alt="">
+                </a>
+
+                <a href="#" aria-label="YouTube">
+                    <img src="images/youtube.png" alt="">
+                </a>
+            </div>
+
+        </div>
+
+
+        <!-- Navigation du footer -->
+        <div class="footer-column">
+
+            <h2>Navigation</h2>
+
+            <nav class="footer-nav" aria-label="Navigation de pied de page">
+                <a href="projet.html">Le projet</a>
+                <a href="actions.html">Nos actions</a>
+                <a href="resultats.html">Résultats</a>
+                <a href="impliquer.html">S’impliquer</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+
+        </div>
+
+
+        <!-- Contact du footer -->
+        <div class="footer-column footer-contact">
+
+            <h2>Contact</h2>
+
+            <div class="footer-contact-item">
+                <img src="images/localisation.png"
+                     alt="" class="footer-contact-icon">
+                <p>Bord de Meuse<br>Namur, Belgique</p>
+            </div>
+
+            <div class="footer-contact-item">
+                <img src="images/email.png"
+                     alt="" class="footer-contact-icon">
+                <a href="mailto:nereauenexus@gmail.com">
+                    nereauenexus@gmail.com
+                </a>
+            </div>
+
+            <div class="footer-contact-item">
+                <img src="images/tel.png"
+                     alt="" class="footer-contact-icon">
+                <a href="tel:+3281000000">+32 81 00 00 00</a>
+            </div>
+
+        </div>
+
+
+        <!-- Newsletter -->
+        <div class="footer-column footer-newsletter">
+
+            <h2>Rester informé</h2>
+
+            <p>
+                Nous proposons du contenu quotidien
+                pour suivre notre projet.
+            </p>
+
+            <form class="newsletter-form">
+
+                <label class="visually-hidden" for="newsletter-email">
+                    Votre adresse e-mail
+                </label>
+
+                <input
+                    type="email"
+                    id="newsletter-email"
+                    placeholder="e-mail"
+                >
+
+                <button type="button">S'abonner</button>
+
+            </form>
+
+        </div>
+
+    </footer>
+
+</div>
+
+</body>
+</html>
